@@ -1,0 +1,294 @@
+#visual_bg {
+    background-size: cover;
+    background:url(../image/bg1.png) center;
+    background-attachment: fixed;
+}
+#visual_bg #visual_bg_gra {
+    background:linear-gradient(-180deg, rgba(0,0,0,0.4), transparent 70%);
+}
+#visual_bg #visual_bg_gra .container {
+    position:relative;
+    text-align:center;
+    padding:300px 0;
+    width:1220px; margin: 0 auto;
+}
+#visual_bg #visual_bg_gra .container .logo {
+    position: absolute; left:0; top:0;
+    width:50px;
+}
+#visual_bg #visual_bg_gra .container .logo a {}
+#visual_bg #visual_bg_gra .container .logo a img {
+    width:100%;
+}
+#visual_bg #visual_bg_gra .container .title {}
+#visual_bg #visual_bg_gra .container .title,
+#visual_bg #visual_bg_gra .container .title em {
+    line-height:1.4;
+    letter-spacing: -0.02em;
+    color:#fff;
+    font-size:2.7rem;
+}
+#visual_bg #visual_bg_gra .container .title em  {
+    font-weight:600;
+}
+#visual_bg #visual_bg_gra .container .sponsor {
+}
+#visual_bg #visual_bg_gra .container .sponsor img {}
+#visual_bg #visual_bg_gra .container .question {
+    position:absolute; right:0; bottom :250px;
+}
+#visual_bg #visual_bg_gra .container .question img {}
+/*------------- quiz -------------*/
+#quiz_bg {
+    background-color: rgba(7, 17, 73, 0.67);
+    background: url(../image/quiz_bg.png);
+}
+#quiz_bg .container {
+    padding:70px 0;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: space-around;
+    width:1220px; margin:0 auto;
+}
+#quiz_bg .container .left {}
+#quiz_bg .container .left #quizFrm {
+    color:#fff;
+}
+#quiz_bg .container .left #quizFrm fieldset {
+}
+#quiz_bg .container .left #quizFrm fieldset h1 {line-height:1.5;
+    text-align: center;
+    font-weight:600;
+    font-size:3rem;
+}
+#quiz_bg .container .left #quizFrm fieldset h2 {
+    font-size:1.4rem;
+    line-height:1.5; padding-bottom:5px;}
+#quiz_bg .container .left #quizFrm fieldset ul {}
+#quiz_bg .container .left #quizFrm fieldset ul li {}
+#quiz_bg .container .left #quizFrm fieldset ul li input[name=quiz] {}
+#quiz_bg .container .left #quizFrm fieldset ul li label {
+    line-height:1.5;
+    font-size:1.2rem;
+}
+#quiz_bg .container .left #quizFrm fieldset p {}
+#quiz_bg .container .left #quizFrm fieldset p .quiz_answer {
+    margin-top:20px;
+    padding:20px 230px;
+    border-radius:30px;
+    background: rgb(28, 28, 28);
+    color:#fff;}
+    #quiz_bg .container .right {}
+    #quiz_bg .container .right img {}
+    #quiz_bg .container .right p {
+        color:#fff;
+        padding-top:20px;
+        text-align: center;
+    }
+/* ---------campaign3---------- */
+.campaign3 .container {
+    padding-bottom:100px;
+    text-align:center;
+    width:1220px;
+}
+.campaign3 .container h1 {padding:90px 0 40px;}
+.campaign3 .container h1+p {padding:20px 0 50px;}
+.campaign3 .container ul {
+    color:#fff;
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+}
+.campaign3 .container ul li {
+    background-position:center -150px;
+    background-size: cover; 
+    width:32%;
+    padding-top:35px;
+}
+.campaign3 .container ul li:nth-child(1) {
+    background:url(../image/28.png) center; 
+    background-position-y:510px;
+}
+.campaign3 .container ul li:nth-child(2) {
+    background: url(../image/27.png) center;
+    background-position-y:580px;
+}
+.campaign3 .container ul li:nth-child(3) {
+    background:url(../image/28.png) center;
+    background-position-y:510px;
+}
+.campaign3 .container ul li h2 {
+    padding-bottom:20px;
+    font-size:2.5rem;
+    font-weight: 600;
+}
+.campaign3 .container ul li p {
+    font-weight:400;
+    padding-bottom:220px;
+    font-size:1.5rem;}
+.campaign3 .container ul li p:last-child {
+    font-size:1.2rem;
+    color:#000;
+    line-height:1.4;
+    height:120px;
+    padding:20px 20px 200px;
+    background:#fff;
+}
+/* -------campaign4-------- */
+.campaign4 {padding-bottom:100px;}
+.campaign4 .container {}
+.campaign4 .container h1 {color:#fff;padding:90px 0 40px; }
+.campaign4 .container p {color:#fff;}
+.campaign4 .container p img {
+    width:100%;
+}
+/* ------campaign5------- */
+.campaign5 {
+    position:relative;
+}
+.campaign5::before {
+    background-color: rgba(255, 255, 255, 0.6);
+    content:''; display:inline-block; width:100%; height:100%;
+    position: absolute;
+}
+.campaign5 .container {
+    text-align: center;
+    position:relative; z-index:999;
+    padding:50px 50px 100px;
+}
+.campaign5 .container {}
+.campaign5 .container h1 {}
+.campaign5 .container p {
+    padding:40px;
+}
+/* -------campaign6--------- */
+.campaign6 {
+    padding-bottom:40px;
+}
+.campaign6 .container {
+    text-align:right;
+}
+.campaign6 .container .top {
+    padding:40px 0;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+.campaign6 .container .top h1 {
+    text-align: left;
+    color:#fff;}
+.campaign6 .container .top .sponsor {}
+.campaign6 .container .top .sponsor img {}
+.campaign6 .container .contents {
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+}
+.campaign6 .container .contents li {
+    text-align:center;
+    width:32%;
+}
+.campaign6 .container .contents li::before {
+    display: block; content:'';
+    background-size:cover; height:200px;
+}
+.campaign6 .container .contents li:nth-child(1)::before {background-image:url(../image/freebie1.jpg);}
+.campaign6 .container .contents li:nth-child(2)::before {background-image:url(../image/freebie2.jpg);}
+.campaign6 .container .contents li:nth-child(3)::before {background-image:url(../image/freebie3.jpg);}
+.campaign6 .container p {
+    margin:20px;
+    display: inline-block;
+    background: #fff;
+}
+/* ---------campaign7----------- */
+.campaign7 {padding:100px;}
+.campaign7 .container {
+    text-align: center;
+}
+.campaign7 .container h1 {padding-bottom:20px;}
+.campaign7 .container p {padding-bottom:50px; font-weight: 500;}
+.campaign7 .container .sponsor {}
+.campaign7 .container .sponsor img {}
+/* -----campaign 통합------------ */
+.campaign_bg {}
+.campaign_bg .container {
+    width:1220px;
+    margin:0 auto;
+}
+.campaign_bg .container h1 {
+    font-size:2.7rem;
+    line-height:1.4;
+    letter-spacing:-0.01em;
+    font-weight:600;
+}
+
+/*------ campaign1~7 배경모음 ------- */
+.campaign1 {
+    background:url(../image/video_bg.png);
+}
+.campaign2 {
+    padding-bottom:100px;
+    background:url(../image/50_bg.png);
+}
+.campaign3 {
+    background:#eee;
+}
+.campaign4 {
+    background:url(../image/50_bg.png);
+}
+.campaign5 {
+    background:url(../image/wwf.jpg);
+}
+.campaign6 {
+    background:url(../image/50_bg.png);
+}
+.campaign7 {
+    background:url(../image/bg2.png);
+}
+.campaign_bg {
+    background-size: cover;
+    background-position: center;
+}
+/* ---campaign 1~7 제목 근접 통일 부분---- */
+.campaign_bg .container h1+p {
+    font-size:1.7rem; letter-spacing: -0.02em;
+    line-height: 1.6;
+}
+/* --em--- */
+.campaign_bg .container h1 em {
+    font-weight:600;
+    font-size:2.7rem;
+    background: #fff; color:#000; padding:8px 2px;
+}
+/*------ campaign1 ------- */
+.campaign1 {}
+.campaign1 .container {
+    text-align:center;
+}
+.campaign1 .container h1 {padding:90px 0 40px;}
+.campaign1 .container iframe {}
+.campaign1 .container .sponsor {}
+.campaign1 .container .sponsor img {
+    margin:30px;
+}
+/* --------campaign2------- */
+.campaign2 {}
+.campaign2 .container {}
+.campaign2 .container h1 {color:#fff; padding:90px 0 40px;}
+.campaign2 .container p {color:#fff;}
+.campaign2 .container p img {width:100%;}
+/* -------footer------- */
+footer {
+    width:1220px;
+    margin:0 auto;
+}
+footer h1 {
+    padding:50px 0 20px;
+    font-weight: 600;
+    font-size:1.5rem;
+}
+footer ul {padding-bottom:40px;}
+footer ul li {
+    line-height: 1.8;
+    font-size:1.2rem;
+}
